@@ -1,5 +1,5 @@
 body {
-  background-color: hsl(354, 100%, 90%);
+  background-color: #ede;
   font-family: Helvetica, Verdana, sans-serif;
   margin-left: min(50%, 12rem);
   padding-left: 1rem;
@@ -31,7 +31,7 @@ nav li a {
 }
 
 nav li a:hover, nav li a:focus {
-  background-color: red;
+  background-color: #a7a;
 }
 
 nav li a:active {
@@ -41,5 +41,21 @@ nav li a:active {
 nav li li a {
   padding: 0.1rem 2rem;
   font-size: 1rem;
+}
+
+nav img {
+  width: 100%;
+}
+
+.exit {
+  position: fixed;
+  bottom: 0;
+  width: min(50%, 12rem);
+}
+
+.exit a {
+  font-size: 1rem;
+  font-variant: small-caps;
+  color: #f00;
 }
 
