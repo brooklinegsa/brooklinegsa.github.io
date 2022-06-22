@@ -49,7 +49,7 @@ nav img {
 }
 
 .exit {
-  position: static;
+  position: absolute;
   bottom: 0;
   width: min(50%, 12rem);
   height: 2rem;
@@ -93,5 +93,5 @@ nav img {
 
 .skip:focus {
 	opacity: 1;
-    position: auto;
+    position: static;
 }
