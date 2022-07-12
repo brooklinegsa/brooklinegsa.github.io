@@ -4,23 +4,25 @@
 <head>
   <meta charset="utf-8">
   <title>Home - BHS GSA</title>
-  <link href="/style.css" rel="stylesheet" type="text/css" />
-  <link rel="icon" type="image/x-icon" href="/logo.svg">
 </head>
 
 <body>
   <nav>
     <a href="#content" class="skip">Skip to main content</a>
+    <button id="menu-toggle" >≡</button>
     <ul class="main">
-      <li><a href="/"><img src="/logo.svg" />Home</a></li>
-      <li class="dropdown">
-        <a href="/resources">Resources</a>
+      <li><a href="/">
+        <img id="logo-wide" src="/logo-wide.svg" />
+        <img id="logo-thin" src="/logo-thin.svg" />Home
+      </a></li>
+      <li class="open dropdown">
+        <button>Resources</button>
         <ul>
           <li><a href="/resources/bathrooms">Bathrooms</a></li>
         </ul>
       </li>
       <li class="dropdown">
-        <a href="/events">Events</a>
+        <button>Events</button>
         <ul>
           <li><a href="/events/retreat">GSA Retreat</a></li>
           <li><a href="/events/friendsgiving">Friendsgiving</a></li>
@@ -30,7 +32,6 @@
           <li><a href="/events/pride">Pride</a></li>
         </ul>
       <li><a href="/task-force">Task Force</a></li>
-      <li>
     </ul>
     <ul class="exit">
   	  <li><a href="https://weather.com">Leave this site now</a></li>
@@ -39,14 +40,15 @@
   
   <h1 id="content">GSA</h1>
   <h2>What is the GSA?</h2>
-  <p>GSA (Gender and Sexuality Alliance) aims to provide a safe space for LGBTQ+ students and their allies to express themselves, strengthen community, and work to make BHS (Brookline High School) a more inclusive place. We are run by three wonderful facilitators (Oliver, Olivia, and Mir) and three excellent faculty advisors.</p>
+  <p>GSA (Gender and Sexuality Alliance) aims to provide a safe space for LGBTQ+ students and their allies to express themselves, strengthen community, and work to make BHS (Brookline High School) a more inclusive place. We are run by three wonderful facilitators (Mir, Caelum, and Ezra) and three excellent faculty advisors.</p>
   <h2>What does the GSA do?</h2>
-  <p>The GSA organizes many events, such as advisory activies during Trans Week of Awareness and lectures by guest speakers during Day of Dialouge. We also compile resources and generally have a very fun time.</p>
+  <p>The GSA organizes many events, such as advisory activies during Trans Week of Awareness and lectures by guest speakers during Day of Dialogue. We also compile resources and generally have a very fun time.</p>
   <h2>When does the GSA meet?</h2>
   <p>During X Blocks in room 203. Feel free to come to our meetings even if you are not LGBTQ+.</p>
   <h2>How do I contact the GSA?</h2>
   <p>Reach out to <a href="mailto:kathryn_leslie@psbma.org">Ms. Leslie</a> and <a href="mailto:julia_mangan@psbma.org">Ms. Mangan</a> with any questions you may have.</p>
   <h2>Who are the GSA facilitators?</h2>
   <p>Ezra Weintroub, Caelum Dulla, and Mir Stojanov.</p>
+  <script src="modules/jquery/jquery-3.3.1.min.js"></script>
 </body>
 </html>
